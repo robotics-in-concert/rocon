@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <name>rocon</name>
+  <version>0.5.2</version>
+  <description>
+    This is a meta package for robotics in concert(a.k.a rocon)
+  </description>
+  <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+  <maintainer email="jihoonlee.in@gmail.com">Jihoon Lee</maintainer>
+  <maintainer email="hrkim@yujinrobot.com">HyungRyul Kim</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://www.robotconcert.org/</url>
+  <url type="repository">http://www.github.com/robotics-in-concert</url>
+  <url type="bugtracker">http://www.github.com/robotics-in-concert/rocon/issues</url>
+
+  <author email="d.stonier@gmail.com">Daniel Stonier</author>
+  <author email="jihoonlee.in@gmail.com">Jihoon Lee</author>
+  <author email="hrkim@yujinrobot.com">HyungRyul Kim</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>rocon_app_platform</run_depend>
+  <run_depend>rocon_concert</run_depend>
+  <run_depend>rocon_multimaster</run_depend>
+  <run_depend>rocon_msgs</run_depend>
+  <run_depend>rocon_rqt_plugins</run_depend>
+  <run_depend>rocon_tutorials</run_depend>
+
+  <export>
+    <metapackage/> 
+  </export>
+</package>

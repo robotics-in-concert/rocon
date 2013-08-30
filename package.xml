@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rocon</name>
-  <version>0.5.3</version>
+  <version>0.6.0</version>
   <description>
     This is a meta package for robotics in concert(a.k.a rocon)
   </description>

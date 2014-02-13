@@ -10,6 +10,7 @@
 {'git': {'local-name': 'rocon_msgs', 'version': 'hydro-devel', 'uri': 'https://github.com/robotics-in-concert/rocon_msgs.git'}},
 {'git': {'local-name': 'rocon_tutorials', 'version': 'hydro-devel', 'uri': 'https://github.com/robotics-in-concert/rocon_tutorials.git'}},
 {'git': {'local-name': 'rocon_concert', 'version': 'hydro-devel', 'uri': 'https://github.com/robotics-in-concert/rocon_concert.git'}},
+{'git': {'local-name': 'rocon_services', 'version': 'hydro-devel', 'uri': 'https://github.com/robotics-in-concert/rocon_services.git'}},
 {'git': {'local-name': 'rocon_app_platform', 'version': 'hydro-devel', 'uri': 'https://github.com/robotics-in-concert/rocon_app_platform.git'}},
 {'git': {'local-name': 'rocon_qt_gui', 'version': 'hydro-devel', 'uri': 'https://github.com/robotics-in-concert/rocon_qt_gui.git'}},
 {'git': {'local-name': 'rocon_scheduler_requests', 'version': 'hydro-devel', 'uri': 'https://github.com/robotics-in-concert/rocon_scheduler_requests.git'}},

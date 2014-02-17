@@ -15,16 +15,18 @@
   <url type="repository">http://www.github.com/robotics-in-concert</url>
   <url type="bugtracker">http://www.github.com/robotics-in-concert/rocon/issues</url>
 
-  <author email="d.stonier@gmail.com">Daniel Stonier</author>
-  <author email="jihoonlee.in@gmail.com">Jihoon Lee</author>
-  <author email="hrkim@yujinrobot.com">HyungRyul Kim</author>
+  <author>Daniel Stonier</author>
+  <author>Jihoon Lee</author>
+  <author>HyungRyul Kim</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>rocon_app_platform</run_depend>
   <run_depend>rocon_concert</run_depend>
-  <run_depend>rocon_multimaster</run_depend>
   <run_depend>rocon_msgs</run_depend>
+  <run_depend>rocon_multimaster</run_depend>
   <run_depend>rocon_rqt_plugins</run_depend>
+  <run_depend>rocon_services</run_depend>
+  <run_depend>rocon_tools</run_depend>
   <run_depend>rocon_tutorials</run_depend>
 
   <export>

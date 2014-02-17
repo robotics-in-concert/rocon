@@ -17,5 +17,7 @@
 {'git': {'local-name': 'rocon_scheduler_requests', 'version': 'hydro-devel', 'uri': 'https://github.com/robotics-in-concert/rocon_scheduler_requests.git'}},
 {'git': {'local-name': 'capabilities', 'version': 'master', 'uri': 'https://github.com/robotics-in-concert/capabilities.git'}},
 {'git': {'local-name': 'std_capabilities', 'version': 'initial_specs', 'uri': 'https://github.com/robotics-in-concert/std_capabilities.git'}},
-{'git': {'local-name': 'rqt_capabilities', 'version': 'master', 'uri': 'https://github.com/robotics-in-concert/rqt_capabilities.git'}}
+{'git': {'local-name': 'rqt_capabilities', 'version': 'master', 'uri': 'https://github.com/robotics-in-concert/rqt_capabilities.git'}},
+
+{'git': {'local-name': 'unique_identifier', 'version': 'master', 'uri': 'https://github.com/ros-geographic-info/unique_identifier.git'}}
 ]

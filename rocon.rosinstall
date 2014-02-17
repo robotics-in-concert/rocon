@@ -21,5 +21,7 @@
 
 {'git': {'local-name': 'unique_identifier', 'version': 'master', 'uri': 'https://github.com/ros-geographic-info/unique_identifier.git'}},
 {'git': {'local-name': 'roslint', 'version': 'master', 'uri': 'https://github.com/ros/roslint.git'}},
+{'git': {'local-name': 'zeroconf_msgs', 'version': 'indigo', 'uri': 'https://github.com/stonier/zeroconf_msgs.git'}},
+{'git': {'local-name': 'zeroconf_avahi_suite', 'version': 'indigo', 'uri': 'https://github.com/stonier/zeroconf_avahi_suite.git'}},
 
 ]

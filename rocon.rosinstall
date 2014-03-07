@@ -25,4 +25,7 @@
 {'git': {'local-name': 'zeroconf_msgs', 'version': 'indigo', 'uri': 'https://github.com/stonier/zeroconf_msgs.git'}},
 {'git': {'local-name': 'zeroconf_avahi_suite', 'version': 'indigo', 'uri': 'https://github.com/stonier/zeroconf_avahi_suite.git'}},
 
+{'git': {'local-name': 'rosbridge_suite', 'version': 'hydro-devel', 'uri': 'https://github.com/RobotWebTools/rosbridge_suite.git'}},
+{'git': {'local-name': 'rosauth', 'version': 'hydro-devel', 'uri': 'https://github.com/WPI-RAIL/rosauth.git'}},
+
 ]

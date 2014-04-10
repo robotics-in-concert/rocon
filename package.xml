@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <package>
   <name>rocon</name>
-  <version>0.6.0</version>
+  <version>0.7.0</version>
   <description>
     This is a meta package for robotics in concert(a.k.a rocon)
   </description>
   <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
-  <maintainer email="jihoonlee.in@gmail.com">Jihoon Lee</maintainer>
-  <maintainer email="hrkim@yujinrobot.com">HyungRyul Kim</maintainer>
 
   <license>BSD</license>
 
@@ -30,6 +28,7 @@
   <run_depend>rocon_tutorials</run_depend>
 
   <export>
-    <metapackage/> 
+    <metapackage/>
+    <rosdoc config="rosdoc.yaml"/>
   </export>
 </package>

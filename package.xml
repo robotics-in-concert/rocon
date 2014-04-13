@@ -6,8 +6,6 @@
     This is a meta package for robotics in concert(a.k.a rocon)
   </description>
   <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
-  <maintainer email="jihoonlee.in@gmail.com">Jihoon Lee</maintainer>
-  <maintainer email="hrkim@yujinrobot.com">HyungRyul Kim</maintainer>
 
   <license>BSD</license>
 
@@ -15,9 +13,9 @@
   <url type="repository">http://www.github.com/robotics-in-concert</url>
   <url type="bugtracker">http://www.github.com/robotics-in-concert/rocon/issues</url>
 
-  <author email="d.stonier@gmail.com">Daniel Stonier</author>
-  <author email="jihoonlee.in@gmail.com">Jihoon Lee</author>
-  <author email="hrkim@yujinrobot.com">HyungRyul Kim</author>
+  <author>Daniel Stonier</author>
+  <author>Jihoon Lee</author>
+  <author>HyungRyul Kim</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>rocon_app_platform</run_depend>

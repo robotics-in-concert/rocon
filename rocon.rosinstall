@@ -22,10 +22,10 @@
 
 {'git': {'local-name': 'common_tutorials', 'version': 'hydro-devel', 'uri': 'https://github.com/ros/common_tutorials.git'}},
 
-{'git': {'local-name': 'unique_identifier', 'version': 'master', 'uri': 'https://github.com/ros-geographic-info/unique_identifier.git'}},
 {'git': {'local-name': 'roslint', 'version': 'master', 'uri': 'https://github.com/ros/roslint.git'}},
 
 {'git': {'local-name': 'rosbridge_suite', 'version': 'hydro-devel', 'uri': 'https://github.com/RobotWebTools/rosbridge_suite.git'}},
-{'git': {'local-name': 'rosauth', 'version': 'hydro-devel', 'uri': 'https://github.com/WPI-RAIL/rosauth.git'}},
 
+# Experimental
+{'git': {'local-name': 'rocon_rapps', 'version': 'indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_rapps.git'}},
 ]

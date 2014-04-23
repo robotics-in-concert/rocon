@@ -28,7 +28,8 @@ Use Exceptions for 1% Situations
 
 A try/except block is extremely efficient if no exceptions are raised. Actually catching an exception is expensive. An example:
 
-.. codeblock:: python
+.. code-block:: python
+
    try:
        value = mydict[key]
    except KeyError:
@@ -37,7 +38,8 @@ A try/except block is extremely efficient if no exceptions are raised. Actually 
 
 This only makes sense when you expect the dict to have the key almost all the time. If that wasn’t the case, you code it like this:
    
-.. codeblock:: python
+.. code-block:: python
+
    if key in mydict:
        value = mydict[key]
    else:
@@ -54,7 +56,7 @@ that you don't actually wish to handle. You simply want to pass them up the tree
 An example, urllib throws a ``socket.error``. One very useful way of passing this
 up the tree is to **refine the exception**. e.g.
 
-.. codeblock:: python
+.. code-block:: python
 
    try:
       # some code doing authentication for rocon interactions
@@ -73,7 +75,8 @@ that are coming his way?
 
 **Good Documentation** 
 
-.. codeblock:: python
+.. code-block:: python
+
     def foo():
         '''
         :raises: :exc:`urllib.error.ContentTooShortError` if download content-length error occurred.
@@ -87,7 +90,7 @@ documentation looking for what arg types there are and what exceptions are getti
 
 The following could potentially assist readability in code:
 
-.. codeblock:: python
+.. code-block:: python
 
    try:
       # something
@@ -108,23 +111,25 @@ half of which have comments about not recommending its use).
 
 A DONT DO THIS example - *hiding unknown exceptions*:
 
-.. codeblock:: python
-   try:
-       yourapi.call_me()
-   except APIKnownError as e:
-       report(e)
-   except Exception as e:
-       pass
+.. code-block:: python
+
+    try:
+        yourapi.call_me()
+    except APIKnownError as e:
+        report(e)
+    except Exception as e:
+        pass
 
 If you don't know what's floating up, the worst possible thing to do is hide it. 
 
 Another DONT DO THIS example - *catching the MOTHER OF ALL exceptions*:
 
-.. codeblock:: python
-   try:
-       foo = opne("file") # misspelled "open"
-   except Exception as e:
-       sys.exit("could not open file!")
+.. code-block:: python
+
+    try:
+        foo = opne("file") # misspelled "open"
+    except Exception as e:
+        sys.exit("could not open file!")
 
 Here it's hard to know that it was a programming error that raised a ``NameError`` and not
 related to opening the file, i.e. a ``IOError``.

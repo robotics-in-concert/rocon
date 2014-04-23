@@ -13,11 +13,11 @@ do it throughout rocon to maintain some readable consistency in the code.
 Overview
 ========
 
-This document is written from the perspective of a library/module developer.
+This document is written from the perspective of a library/module developer. Some common guidelines:
 
-.. note:: Gracefully handle errors you know how to handle.
-.. note:: Do not silence exceptions that you cannot handle or do not know.
-.. note:: If necessary, use a global exception handler (at the highest level) to (hopefully) gracefully handle unexpected errors.
+1. Gracefully handle errors you know how to handle.
+2. Do not silence exceptions that you cannot handle or do not know.
+3. If necessary, use a global exception handler (at the highest level) to (hopefully) gracefully handle unexpected errors.
 
 
 Recommendations

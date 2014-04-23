@@ -18,6 +18,7 @@ Contents:
    :maxdepth: 2
 
    debugging
+   exception_handling
 
 .. _`Robotics in Concert`: http://www.robotconcert.org/wiki/Main_Page
 

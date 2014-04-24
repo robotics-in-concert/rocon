@@ -19,8 +19,6 @@
 {'git': {'local-name': 'std_capabilities', 'version': 'initial_specs', 'uri': 'https://github.com/robotics-in-concert/std_capabilities.git'}},
 {'git': {'local-name': 'rqt_capabilities', 'version': 'master', 'uri': 'https://github.com/robotics-in-concert/rqt_capabilities.git'}},
 
-{'git': {'local-name': 'roslint', 'version': 'master', 'uri': 'https://github.com/ros/roslint.git'}},
-
 {'git': {'local-name': 'rosbridge_suite', 'version': 'hydro-devel', 'uri': 'https://github.com/RobotWebTools/rosbridge_suite.git'}},
 
 # Experimental

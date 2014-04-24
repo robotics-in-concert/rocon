@@ -100,8 +100,8 @@ The following could potentially assist readability in code:
 However, catching exceptions is said to be very expensive. *I do not know* if the above is more expensive
 than just letting it float up, so I am avoiding it for now.
 
-Handle Individual Exception Types
----------------------------------
+Don't Hide Exceptions
+---------------------
 
 In the python world, **hiding**, or masking exceptions is considered very bad practice because
 you take control away from your users. Even if you're writing a module for an executable
@@ -120,7 +120,13 @@ A DONT DO THIS example - *hiding known exceptions*:
 
 I just spent 20mins hunting a bug in the rapp manager because this should have been 'rapp_list' not 'app_list'.
 
-A DONT DO THIS example - *hiding unknown exceptions*:
+Be Scared of the Mother of All Exceptions
+-----------------------------------------
+
+The Mother of All Exceptions, ``Exception`` should not be used directly, use one from the standard exception heirarchy
+<https://docs.python.org/2/library/exceptions.html#exception-hierarchy> or customise your own.
+
+A DONT DO THIS example - *hiding the MOTHER OF ALL exceptions*:
 
 .. code-block:: python
 
@@ -133,7 +139,7 @@ A DONT DO THIS example - *hiding unknown exceptions*:
 
 If you don't know what's floating up, the worst possible thing to do is hide it. 
 
-Another DONT DO THIS example - *catching the MOTHER OF ALL exceptions*:
+Another DONT DO THIS example - *handling the MOTHER OF ALL exceptions*:
 
 .. code-block:: python
 

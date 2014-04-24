@@ -103,11 +103,22 @@ than just letting it float up, so I am avoiding it for now.
 Handle Individual Exception Types
 ---------------------------------
 
-In the python world, hiding, or masking exceptions is considered very bad practice because
+In the python world, **hiding**, or masking exceptions is considered very bad practice because
 you take control away from your users. Even if you're writing a module for an executable
 (e.g. rapp manager) don't be surprised if someone links and uses one of your package's classes,
 or modules one day...thus becoming your library user (I do this all the time with Ken's python code,
 half of which have comments about not recommending its use).
+
+A DONT DO THIS example - *hiding known exceptions*:
+
+.. code-block:: python
+
+    try:
+        self._publishers['app_list'].publish(rapp_list)
+    except KeyError:  
+        pass
+
+I just spent 20mins hunting a bug in the rapp manager because this should have been 'rapp_list' not 'app_list'.
 
 A DONT DO THIS example - *hiding unknown exceptions*:
 
@@ -117,7 +128,7 @@ A DONT DO THIS example - *hiding unknown exceptions*:
         yourapi.call_me()
     except APIKnownError as e:
         report(e)
-    except Exception as e:
+    except Exception:
         pass
 
 If you don't know what's floating up, the worst possible thing to do is hide it. 

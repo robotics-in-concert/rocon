@@ -124,7 +124,8 @@ Be Scared of the Mother of All Exceptions
 -----------------------------------------
 
 The Mother of All Exceptions, ``Exception`` should not be used directly, use one from the standard exception heirarchy
-<https://docs.python.org/2/library/exceptions.html#exception-hierarchy> or customise your own.
+<https://docs.python.org/2/library/exceptions.html#exception-hierarchy> or customise your own. The key problems here
+are that you are handling something that may not be what you expect, or you are hiding it from user's above.
 
 A DONT DO THIS example - *hiding the MOTHER OF ALL exceptions*:
 

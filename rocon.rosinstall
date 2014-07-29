@@ -19,7 +19,7 @@
 {'git': {'local-name': 'std_capabilities', 'version': 'initial_specs', 'uri': 'https://github.com/robotics-in-concert/std_capabilities.git'}},
 {'git': {'local-name': 'rqt_capabilities', 'version': 'master', 'uri': 'https://github.com/robotics-in-concert/rqt_capabilities.git'}},
 
-{'git': {'local-name': 'rosbridge_suite', 'version': 'hydro-devel', 'uri': 'https://github.com/RobotWebTools/rosbridge_suite.git'}},
+{'git': {'local-name': 'rosbridge_suite', 'version': 'develop', 'uri': 'https://github.com/RobotWebTools/rosbridge_suite.git'}},
 
 # Experimental
 {'git': {'local-name': 'rocon_rapps', 'version': 'indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_rapps.git'}},

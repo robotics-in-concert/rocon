@@ -2,8 +2,8 @@
 Changelog for package rocon
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.7.2 (2014-08-27)
+------------------
 * Fix `#27 <https://github.com/robotics-in-concert/rocon/issues/27>`_
 * Contributors: Jihoon Lee
 

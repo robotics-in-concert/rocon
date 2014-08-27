@@ -2,8 +2,8 @@
 Changelog for package rocon
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.7.1 (2014-08-27)
+------------------
 * add rocon_app_platform rosinstall
 * Rosbridge suite is now available as a deb
 * Update exception_handling.rst

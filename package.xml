@@ -22,7 +22,7 @@
   <run_depend>rocon_concert</run_depend>
   <run_depend>rocon_msgs</run_depend>
   <run_depend>rocon_multimaster</run_depend>
-  <run_depend>rocon_rqt_plugins</run_depend>
+  <run_depend>rocon_qt_gui</run_depend>
   <run_depend>concert_services</run_depend>
   <run_depend>rocon_tools</run_depend>
   <run_depend>rocon_tutorials</run_depend>

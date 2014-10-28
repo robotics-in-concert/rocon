@@ -21,4 +21,9 @@
 
 # Experimental
 {'git': {'local-name': 'rocon_rapps', 'version': 'indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_rapps.git'}},
+
+# WKF (World Canvas Framework)
+{'git': {'local-name': 'world_canvas', 'version': 'master', 'uri': 'https://github.com/corot/world_canvas.git'}},
+{'git': {'local-name': 'world_canvas_libs', 'version': 'master', 'uri': 'https://github.com/corot/world_canvas_libs.git'}},
+{'git': {'local-name': 'world_canvas_msgs', 'version': 'master', 'uri': 'https://github.com/corot/world_canvas_msgs.git'}},
 ]

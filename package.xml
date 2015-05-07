@@ -24,6 +24,7 @@
   <run_depend>rocon_multimaster</run_depend>
   <run_depend>rocon_qt_gui</run_depend>
   <run_depend>concert_services</run_depend>
+  <run_depend>concert_software_farm</run_depend>
   <run_depend>rocon_tools</run_depend>
   <run_depend>rocon_tutorials</run_depend>
 

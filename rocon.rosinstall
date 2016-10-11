@@ -6,15 +6,15 @@
 #       http://ros.org/wiki/rocon_concert/Installation - develop
 [
 {'git': {'local-name': 'rocon', 'version': 'develop', 'uri':'https://github.com/robotics-in-concert/rocon.git'}},
-{'git': {'local-name': 'rocon_concert', 'version': 'develop', 'uri': 'https://github.com/robotics-in-concert/rocon_concert.git'}},
-{'git': {'local-name': 'rocon_multimaster', 'version': 'develop', 'uri':'https://github.com/robotics-in-concert/rocon_multimaster.git'}},
-{'git': {'local-name': 'rocon_msgs', 'version': 'develop', 'uri': 'https://github.com/robotics-in-concert/rocon_msgs.git'}},
-{'git': {'local-name': 'rocon_tools', 'version': 'develop', 'uri':'https://github.com/robotics-in-concert/rocon_tools.git'}},
-{'git': {'local-name': 'rocon_app_platform', 'version': 'develop', 'uri': 'https://github.com/robotics-in-concert/rocon_app_platform.git'}},
-{'git': {'local-name': 'rocon_tutorials', 'version': 'develop', 'uri': 'https://github.com/robotics-in-concert/rocon_tutorials.git'}},
+{'git': {'local-name': 'rocon_concert', 'version': 'devel', 'uri': 'https://github.com/robotics-in-concert/rocon_concert.git'}},
+{'git': {'local-name': 'rocon_multimaster', 'version': 'devel', 'uri':'https://github.com/robotics-in-concert/rocon_multimaster.git'}},
+{'git': {'local-name': 'rocon_msgs', 'version': 'devel', 'uri': 'https://github.com/robotics-in-concert/rocon_msgs.git'}},
+{'git': {'local-name': 'rocon_tools', 'version': 'devel', 'uri':'https://github.com/robotics-in-concert/rocon_tools.git'}},
+{'git': {'local-name': 'rocon_app_platform', 'version': 'devel', 'uri': 'https://github.com/robotics-in-concert/rocon_app_platform.git'}},
+{'git': {'local-name': 'rocon_tutorials', 'version': 'devel', 'uri': 'https://github.com/robotics-in-concert/rocon_tutorials.git'}},
 {'git': {'local-name': 'concert_services', 'version': 'develop', 'uri': 'https://github.com/robotics-in-concert/concert_services.git'}},
 {'git': {'local-name': 'concert_software_farm', 'version': 'develop', 'uri': 'https://github.com/robotics-in-concert/concert_software_farm.git'}},
-{'git': {'local-name': 'rocon_qt_gui', 'version': 'develop', 'uri': 'https://github.com/robotics-in-concert/rocon_qt_gui.git'}},
+{'git': {'local-name': 'rocon_qt_gui', 'version': 'devel', 'uri': 'https://github.com/robotics-in-concert/rocon_qt_gui.git'}},
 
 {'git': {'local-name': 'concert_scheduling', 'version': 'master', 'uri': 'https://github.com/robotics-in-concert/concert_scheduling.git'}},
 {'git': {'local-name': 'std_capabilities', 'version': 'initial_specs', 'uri': 'https://github.com/robotics-in-concert/std_capabilities.git'}},

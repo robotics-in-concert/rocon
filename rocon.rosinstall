@@ -1,30 +1,15 @@
 # == Overview ==
 #
-# Installs the complete ROCON environment and all its components - gateways, app platform and concert parts. 
-# Development branch moving towards Indigo Igloo release (though still using Hydro Medusa underneath)
-#
-#       http://ros.org/wiki/rocon_concert/Installation - Indigo
+# Installs surviving ROCON components - gateways, app platform and tools. 
 [
-{'git': {'local-name': 'rocon',                 'version': 'release/indigo',     'uri':'https://github.com/robotics-in-concert/rocon.git'               }},
-{'git': {'local-name': 'rocon_concert',         'version': 'release/0.6-indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_concert.git'      }},
-{'git': {'local-name': 'rocon_multimaster',     'version': 'release/0.7-indigo', 'uri':'https://github.com/robotics-in-concert/rocon_multimaster.git'   }},
-{'git': {'local-name': 'rocon_msgs',            'version': 'release/0.7-indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_msgs.git'         }},
-{'git': {'local-name': 'rocon_tools',           'version': 'release/0.1-indigo', 'uri':'https://github.com/robotics-in-concert/rocon_tools.git'         }},
-{'git': {'local-name': 'rocon_app_platform',    'version': 'release/0.7-indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_app_platform.git' }},
-{'git': {'local-name': 'rocon_tutorials',       'version': 'release/0.6-indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_tutorials.git'    }},
-{'git': {'local-name': 'rocon_qt_gui',          'version': 'release/0.7-indigo', 'uri': 'https://github.com/robotics-in-concert/rocon_qt_gui.git'       }},
+{'git': {'local-name': 'rocon',                 'version': 'release/kinetic',     'uri':'https://github.com/robotics-in-concert/rocon.git'               }},
+{'git': {'local-name': 'rocon_multimaster',     'version': 'release/0.8-kinetic', 'uri':'https://github.com/robotics-in-concert/rocon_multimaster.git'   }},
+{'git': {'local-name': 'rocon_msgs',            'version': 'release/0.9-kinetic', 'uri': 'https://github.com/robotics-in-concert/rocon_msgs.git'         }},
+{'git': {'local-name': 'rocon_tools',           'version': 'release/0.3-kinetic', 'uri':'https://github.com/robotics-in-concert/rocon_tools.git'         }},
+{'git': {'local-name': 'rocon_app_platform',    'version': 'release/0.8-kinetic', 'uri': 'https://github.com/robotics-in-concert/rocon_app_platform.git' }},
 
-{'git': {'local-name': 'concert_services',      'version': 'indigo',             'uri': 'https://github.com/robotics-in-concert/concert_services.git'   }},
-{'git': {'local-name': 'concert_software_farm', 'version': 'indigo',             'uri': 'https://github.com/robotics-in-concert/concert_software_farm.git'}},
-{'git': {'local-name': 'concert_scheduling',    'version': 'master',             'uri': 'https://github.com/robotics-in-concert/concert_scheduling.git' }},
-{'git': {'local-name': 'std_capabilities',      'version': 'initial_specs',      'uri': 'https://github.com/robotics-in-concert/std_capabilities.git'   }},
-{'git': {'local-name': 'rqt_capabilities',      'version': 'master',             'uri': 'https://github.com/robotics-in-concert/rqt_capabilities.git'   }},
-
-# Experimental
-{'git': {'local-name': 'rocon_rapps',           'version': 'indigo',             'uri': 'https://github.com/robotics-in-concert/rocon_rapps.git'        }},
-
-# WKF (World Canvas Framework)
-{'git': {'local-name': 'world_canvas',          'version': 'master',             'uri': 'https://github.com/corot/world_canvas.git'                     }},
-{'git': {'local-name': 'world_canvas_libs',     'version': 'master',             'uri': 'https://github.com/corot/world_canvas_libs.git'                }},
-{'git': {'local-name': 'world_canvas_msgs',     'version': 'master',             'uri': 'https://github.com/corot/world_canvas_msgs.git'                }},
+# Not yet released in kinetic
+# {'git': {'local-name': 'rocon_qt_gui',          'version': 'release/0.9-kinetic', 'uri': 'https://github.com/robotics-in-concert/rocon_qt_gui.git'       }},
+# Need to deprecate the concert tutorials here
+# {'git': {'local-name': 'rocon_tutorials',       'version': 'release/0.6-kinetic', 'uri': 'https://github.com/robotics-in-concert/rocon_tutorials.git'    }},
 ]

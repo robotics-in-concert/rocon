@@ -7,7 +7,7 @@
 {'git': {'local-name': 'rocon_msgs',            'version': 'release/0.9-kinetic', 'uri': 'https://github.com/robotics-in-concert/rocon_msgs.git'         }},
 {'git': {'local-name': 'rocon_tools',           'version': 'release/0.3-kinetic', 'uri':'https://github.com/robotics-in-concert/rocon_tools.git'         }},
 {'git': {'local-name': 'rocon_app_platform',    'version': 'release/0.8-kinetic', 'uri': 'https://github.com/robotics-in-concert/rocon_app_platform.git' }},
-{'git': {'local-name': 'rocon_qt_gui',          'version': 'release/0.9-kinetic', 'uri': 'https://github.com/robotics-in-concert/rocon_qt_gui.git'       }},
+{'git': {'local-name': 'rocon_qt_gui',          'version': 'kinetic-devel', 'uri': 'https://github.com/robotics-in-concert/rocon_qt_gui.git'       }},
 
 # Need to deprecate the concert tutorials here
 # {'git': {'local-name': 'rocon_tutorials',       'version': 'release/0.6-kinetic', 'uri': 'https://github.com/robotics-in-concert/rocon_tutorials.git'    }},
